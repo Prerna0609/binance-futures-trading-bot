@@ -1,0 +1,15 @@
+2025-07-04 10:12:01 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20250704.log
+2025-07-04 10:12:01 | INFO     | trading_bot.cli | Trading bot started | args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.01}
+2025-07-04 10:12:01 | INFO     | trading_bot.cli | Input validation passed.
+2025-07-04 10:12:02 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-07-04 10:12:02 | INFO     | trading_bot.client | Order placed successfully: orderId=4801923 status=FILLED
+2025-07-04 10:12:02 | INFO     | trading_bot.cli | Order completed successfully: orderId=4801923 status=FILLED
+2025-07-04 10:15:44 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20250704.log
+2025-07-04 10:15:44 | INFO     | trading_bot.cli | Trading bot started | args: {'symbol': 'ETHUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0}
+2025-07-04 10:15:44 | INFO     | trading_bot.cli | Input validation passed.
+2025-07-04 10:15:45 | INFO     | trading_bot.orders | Placing order: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0}
+2025-07-04 10:15:45 | INFO     | trading_bot.client | Order placed successfully: orderId=2937481 status=NEW
+2025-07-04 10:15:45 | INFO     | trading_bot.cli | Order completed successfully: orderId=2937481 status=NEW
+2025-07-04 10:21:05 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20250704.log
+2025-07-04 10:21:05 | INFO     | trading_bot.cli | Trading bot started | args: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': 0.01}
+2025-07-04 10:21:05 | ERROR    | trading_bot.cli | Validation failed: Price is required for LIMIT orders.
